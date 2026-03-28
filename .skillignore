@@ -1,0 +1,12 @@
+mcp-config.json
+# 兼容旧版：.env 文件同样排除
+.env
+*.env
+.env.local
+.env.*.local
+# dingtalk-skill-creator 工具脚本（仅用于创建技能，不属于技能本身）
+scripts/init_skill.py
+scripts/package_skill.py
+scripts/quick_validate.py
+scripts/fetch_mcp_tools.py
+scripts/generate_catalog_md.py
